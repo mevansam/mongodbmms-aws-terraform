@@ -51,7 +51,7 @@ resource "aws_security_group" "mongops-automation-agent" {
         cidr_blocks = [ "0.0.0.0/0" ]
     }
 }
-/*
+
 resource "aws_instance" "mongops-automation-agent-az1" {
 
     ami = "${lookup(var.amazon_amis, lookup(var.vpc, "region"))}"
@@ -145,4 +145,3 @@ resource "aws_instance" "mongops-automation-agent-az2" {
 
     count = "${var.number_automation_agents - (var.number_automation_agents / 2)}"
 }
-*/
