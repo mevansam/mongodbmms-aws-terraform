@@ -10,4 +10,4 @@ variable "mongo_automation_agent" {}
 variable "number_automation_agents" {}
 
 variable "mongoops_group_id" {}
-variable "mongoops_api_key" {}
+variable "mongoops_agent_api_key" {}
